@@ -1,0 +1,128 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    margin: 0%;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+	display: flex;
+	height: 10%;
+	width: 100%;
+	border: 2px solid orange;
+}
+
+.logo{
+	height: 100%;
+	width: 15%;
+	border: 2px solid pink;
+}
+
+.list{
+	height: 100%;
+	width: 70%;
+	border: 2px solid black;
+}
+
+.dropdown{
+	height: 100%;
+	width: 15%;
+	border: 2px solid green;
+}
+
+.firstSection{
+	height: 100%;
+	width: 100%;
+	border: 2px solid pink;	
+}
+
+.writing{
+	height: 35%;
+	width: 40%;
+	border: 2px solid grey;
+}
+
+.blackbox{
+	height: 35%;
+	width: 35%;
+	border: 2px solid black;
+}
+
+.secondSection{
+	display: flex;
+	height: 50%;
+	width: 100%;
+	border: 2px solid grey;
+}
+
+.firstDiv{
+	height: 100%;
+	width: 33.33%;
+	border: 2px solid green;
+}
+
+.secondDiv{
+	height: 100%;
+	width: 33.33%;
+	border: 2px solid saddlebrown;
+}
+
+.thirdDiv{
+	height: 100%;
+	width: 33.33%;
+	border: 2px solid pink;
+}
+
+.thirdSection{
+	display: flex;
+	height: 50%;
+	width: 100%;
+	border: 2px solid orangered;
+}
+
+.thirdSecWriting{
+	height: 60%;
+	width: 40%;
+	border: 2px solid greenyellow;
+}
+
+.thirdSecImage{
+	height: 60%;
+	width: 40%;
+	border: 2px slategray solid;
+}
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
