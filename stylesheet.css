@@ -103,7 +103,7 @@ header {
 
 .thirdSection{
 	display: flex;
-	height: 50%;
+	height: 100%;
 	width: 100%;
 	border: 2px solid orangered;
 }
@@ -115,12 +115,72 @@ header {
 }
 
 .thirdSecImage{
+	display: flex;
 	height: 60%;
 	width: 40%;
 	border: 2px slategray solid;
 }
-footer {
 
+.fourthSection{
+	display: flex;
+	height: 50%;
+	width: 100%;
+	border: 2px solid magenta;
+}
+
+.firstStylist{
+	height: 95%;
+	width: 25%;
+	border: 2px solid turquoise;
+}
+
+.secondStylist{
+	height: 95%;
+	width: 25%;
+	border: 2px solid goldenrod;
+}
+
+.thirdStylist{
+	height: 95%;
+	width: 25%;
+	border: 2px solid olive;
+}
+
+.fifthSection{
+	height: 40%;
+	width: 100%;
+	border: 2px solid brown;
+}
+
+.fifthSectionWriting{
+	height: 80%;
+	width: 45%;
+	border: 2px solid blue;
+}
+
+.sixthSection{
+	display: flex;
+	height: 90%;
+	width: 100%;
+	border: 2px solid gainsboro;
+}
+
+.spanSixth{
+	height: 20%;
+	width: 20%;
+	border: 2px solid salmon;
+}
+
+#imageContainer{
+	height: 90%;
+	width: 70%;
+	border: 2px solid greenyellow;
+}
+
+#firstImage{
+	height: 30%;
+	width: 30%;
+	border: 2px solid black;
 }
 
 /******************************************
