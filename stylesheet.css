@@ -35,24 +35,39 @@ body{
 /*******************************************/
 header {
 	display: flex;
+	color: black;
 	height: 10%;
 	width: 100%;
 	border: 2px solid orange;
 }
 
 .logo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	height: 100%;
 	width: 15%;
 	border: 2px solid pink;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
+
 .list{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	height: 100%;
 	width: 70%;
 	border: 2px solid black;
 }
 
 .dropdown{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	height: 100%;
 	width: 15%;
 	border: 2px solid green;
@@ -160,6 +175,7 @@ header {
 
 .sixthSection{
 	display: flex;
+	flex-direction: column;
 	height: 90%;
 	width: 100%;
 	border: 2px solid gainsboro;
@@ -172,15 +188,66 @@ header {
 }
 
 #imageContainer{
+	display: flex;
 	height: 90%;
 	width: 70%;
 	border: 2px solid greenyellow;
 }
 
+.subImageContOne{
+	height: 100%;
+	width: 33.33%;
+	border: 2px solid grey;
+}
+
 #firstImage{
 	height: 30%;
-	width: 30%;
+	width: 100%;
 	border: 2px solid black;
+}
+
+#secondImage{
+	height: 70%;
+	width: 100%;
+	border: 2px solid rebeccapurple;
+}
+
+.subImageContTwo{
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 33.33%;
+	border: 2px solid purple;
+}
+
+#thirdImage{
+	height: 70%;
+	width: 100%;
+	border: 2px solid sienna;
+}
+
+#fourthImage{
+	height: 30%;
+	width: 100%;
+	border: 2px solid red;
+}
+
+.subImageContThree{
+	height: 100%;
+	width: 33.33%;
+	border: 2px solid orange;
+}
+
+#fifthImage{
+	height: 30%;
+	width: 100%;
+	border: 2px solid darksalmon;
+}
+
+#sixthImage{
+	height: 70%;
+	width: 100%;
+	border: 2px solid blue;
 }
 
 /******************************************
