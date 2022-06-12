@@ -101,18 +101,30 @@ a{
 }
 
 .firstDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	height: 100%;
 	width: 33.33%;
 	border: 2px solid green;
 }
 
 .secondDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	height: 100%;
 	width: 33.33%;
 	border: 2px solid saddlebrown;
 }
 
 .thirdDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	height: 100%;
 	width: 33.33%;
 	border: 2px solid pink;
