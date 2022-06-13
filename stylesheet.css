@@ -132,18 +132,28 @@ a{
 
 .thirdSection{
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	height: 100%;
 	width: 100%;
 	border: 2px solid orangered;
 }
 
 .thirdSecWriting{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	height: 60%;
 	width: 40%;
 	border: 2px solid greenyellow;
 }
 
 .thirdSecImage{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 	display: flex;
 	height: 60%;
 	width: 40%;
@@ -152,6 +162,8 @@ a{
 
 .fourthSection{
 	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
 	height: 50%;
 	width: 100%;
 	border: 2px solid magenta;
@@ -182,6 +194,10 @@ a{
 }
 
 .fifthSectionWriting{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
 	height: 80%;
 	width: 45%;
 	border: 2px solid blue;
