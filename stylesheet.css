@@ -316,3 +316,33 @@ a{
 	background-image: url(barberThree.jpeg);
 	background-size: cover;
 }
+
+.fifthSection{
+	background-image: url(tools.jpeg);
+	background-size: cover;
+}
+
+#firstImage{
+	background-image: url(firstImage.jpeg);
+	background-size: cover;
+}
+
+#secondImage{
+	background-image: url(secondImage.jpeg);
+	background-size: cover;
+}
+
+#thirdImage{
+	background-image: url(thirdImage.jpeg);
+	background-size: cover;
+}
+
+#fourthImage{
+	background-image: url(fourthImage.jpeg);
+	background-size: cover;
+}
+
+#fifthImage{
+	background-image: url(fifthImage.jpeg);
+	background-size: cover;
+}
