@@ -331,13 +331,18 @@ button{
 	color: white;
 }
 
-.fifthSectionWriting{
-	margin-right: 50%;
+#videoImage{
+	height: 100%;
+	width: 100%;
 }
 
-.thirdSecImage{
-	background-image: url(cuthair.jpeg);
-	background-size: cover;
+#stylists{
+	height: 100%;
+	width: 100%;
+}
+
+.fifthSectionWriting{
+	margin-right: 50%;
 }
 
 .firstStylist{
@@ -389,3 +394,4 @@ button{
 	background-image: url(sixthImage.jpeg);
 	background-size: cover;
 }
+
