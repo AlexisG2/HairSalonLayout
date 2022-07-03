@@ -366,32 +366,32 @@ button{
 }
 
 #firstImage{
-	background-image: url(firstImage.jpeg);
+	background-image: url(firstOfSix.jpeg);
 	background-size: cover;
 }
 
 #secondImage{
-	background-image: url(secondImage.jpeg);
+	background-image: url(secondOfSix.jpeg);
 	background-size: cover;
 }
 
 #thirdImage{
-	background-image: url(thirdImage.jpeg);
+	background-image: url(thirdOfSix.jpeg);
 	background-size: cover;
 }
 
 #fourthImage{
-	background-image: url(fourthImage.jpeg);
+	background-image: url(blackBox.jpeg);
 	background-size: cover;
 }
 
 #fifthImage{
-	background-image: url(fifthImage.jpeg);
+	background-image: url(fiveOfSix.jpeg);
 	background-size: cover;
 }
 
 #sixthImage{
-	background-image: url(sixthImage.jpeg);
+	background-image: url(sixOfSixth.jpeg);
 	background-size: cover;
 }
 
