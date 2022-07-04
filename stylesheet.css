@@ -231,6 +231,7 @@ a{
 	height: 90%;
 	width: 70%;
 	border: 2px solid greenyellow;
+	margin: 1%;
 }
 
 .subImageContOne{
@@ -292,11 +293,6 @@ a{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-html{
-	background-image: url(bg.jpeg);
-	background-size: cover;
-}
-
 header{
 	color:white;
 }
@@ -329,6 +325,15 @@ button{
 
 .secondSection{
 	color: white;
+}
+
+#hFourHeaders{
+	color: black;
+}
+
+#spriteParagraph{
+	color: black;
+	text-align: center;
 }
 
 #videoImage{
