@@ -76,8 +76,7 @@ a{
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	width: 100%;
-	border: 2px solid pink;	
+	width: 100%;	
 }
 
 .writing{
@@ -85,20 +84,17 @@ a{
 	width: 40%;
 	margin-left: 10%;
 	margin-top: 12%;
-	border: 2px solid grey;
 }
 
 .blackbox{
 	height: 35%;
 	width: 35%;
-	border: 2px solid black;
 }
 
 .secondSection{
 	display: flex;
 	height: 50%;
 	width: 100%;
-	border: 2px solid grey;
 }
 
 .firstDiv{
@@ -109,7 +105,6 @@ a{
 	text-align: center;
 	height: 100%;
 	width: 33.33%;
-	border: 2px solid green;
 }
 
 .secondDiv{
@@ -120,7 +115,6 @@ a{
 	text-align: center;
 	height: 100%;
 	width: 33.33%;
-	border: 2px solid saddlebrown;
 }
 
 .thirdDiv{
@@ -131,7 +125,6 @@ a{
 	text-align: center;
 	height: 100%;
 	width: 33.33%;
-	border: 2px solid pink;
 }
 
 .thirdSection{
@@ -140,7 +133,6 @@ a{
 	justify-content: center;
 	height: 70%;
 	width: 100%;
-	border: 2px solid orangered;
 }
 
 .thirdSecWriting{
@@ -150,7 +142,6 @@ a{
 	justify-content: center;
 	height: 60%;
 	width: 40%;
-	border: 2px solid greenyellow;
 }
 
 .thirdSecImage{
@@ -161,7 +152,6 @@ a{
 	display: flex;
 	height: 60%;
 	width: 40%;
-	border: 2px slategray solid;
 }
 
 .fourthSection{
@@ -170,25 +160,21 @@ a{
 	justify-content: space-evenly;
 	height: 50%;
 	width: 100%;
-	border: 2px solid magenta;
 }
 
 .firstStylist{
 	height: 95%;
 	width: 25%;
-	border: 2px solid turquoise;
 }
 
 .secondStylist{
 	height: 95%;
 	width: 25%;
-	border: 2px solid goldenrod;
 }
 
 .thirdStylist{
 	height: 95%;
 	width: 25%;
-	border: 2px solid olive;
 }
 
 .fifthSection{
@@ -197,7 +183,6 @@ a{
 	align-items: center;
 	height: 40%;
 	width: 100%;
-	border: 2px solid brown;
 }
 
 .fifthSectionWriting{
@@ -207,7 +192,6 @@ a{
 	justify-content: flex-start;
 	height: 80%;
 	width: 45%;
-	border: 2px solid blue;
 }
 
 .sixthSection{
@@ -217,39 +201,36 @@ a{
 	justify-content: center;
 	height: 90%;
 	width: 100%;
-	border: 2px solid gainsboro;
 }
 
 .spanSixth{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 20%;
 	width: 20%;
-	border: 2px solid salmon;
 }
 
 #imageContainer{
 	display: flex;
 	height: 90%;
 	width: 70%;
-	border: 2px solid greenyellow;
 	margin: 1%;
 }
 
 .subImageContOne{
 	height: 100%;
 	width: 33.33%;
-	border: 2px solid grey;
 }
 
 #firstImage{
 	height: 30%;
 	width: 100%;
-	border: 2px solid black;
 }
 
 #secondImage{
 	height: 70%;
 	width: 100%;
-	border: 2px solid rebeccapurple;
 }
 
 .subImageContTwo{
@@ -257,37 +238,31 @@ a{
 	flex-direction: column;
 	height: 100%;
 	width: 33.33%;
-	border: 2px solid purple;
 }
 
 #thirdImage{
 	height: 70%;
 	width: 100%;
-	border: 2px solid sienna;
 }
 
 #fourthImage{
 	height: 30%;
 	width: 100%;
-	border: 2px solid red;
 }
 
 .subImageContThree{
 	height: 100%;
 	width: 33.33%;
-	border: 2px solid orange;
 }
 
 #fifthImage{
 	height: 30%;
 	width: 100%;
-	border: 2px solid darksalmon;
 }
 
 #sixthImage{
 	height: 70%;
 	width: 100%;
-	border: 2px solid blue;
 }
 
 /******************************************
@@ -315,12 +290,18 @@ button{
 
 .writing{
 	color:white;
+	background: black;
 }
 
 .blackbox{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	color: white;
+	background: black;
 	margin-left: 10%;
     margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .secondSection{
@@ -402,5 +383,10 @@ button{
 
 .fifthSection{
 	background-image: url(underStylist.jpeg);
+}
+
+.firstSection{
+	background-image: url(firstSecBG.jpeg);
+	background-size: cover;
 }
 
