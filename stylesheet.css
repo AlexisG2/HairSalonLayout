@@ -346,3 +346,8 @@ a{
 	background-image: url(fifthImage.jpeg);
 	background-size: cover;
 }
+
+#sixthImage{
+	background-image: url(sixthImage.jpeg);
+	background-size: cover;
+}
